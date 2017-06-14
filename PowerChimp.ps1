@@ -22,7 +22,7 @@ function Send-BlogEmail {
 
 function Send-MassBlogFromList {
 
-    $PathToBlogList = "LIST OF EMAILS"
+    $PathToBlogList = "C:\emails.txt"
     
     $emails = Get-Content $PathToBlogList
 
